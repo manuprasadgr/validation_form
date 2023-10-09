@@ -1,17 +1,23 @@
 $(document).ready(function(){
+   
     $("#button").click(function(){
 
 
         if($('#name').val()==''){
 
+         
             $('#warning').html("Enter a valid name !!")
+
         }
 
-            else if($ ('#mail').val()==''){
-                $('#warning1').html("Enter a valid mail !!")
-                $('#warning').html("")
+
+        
+        else if($ ('#mail').val()==''){
+             $('#warning1').html("Enter a valid mail !!")
+             $('#warning').html("")
         
         }
+
 
         else if($('#pswd').val()==''){
             $('#warning2').html("Enter a password !!")
@@ -19,6 +25,7 @@ $(document).ready(function(){
             $('#warning').html("")
     
         }
+
 
 
         else if($('#team').val()==''){
@@ -30,6 +37,7 @@ $(document).ready(function(){
         }
 
 
+
         else if($('#date2').val()==''){
             $('#warning4').html("Enter a valid date !!")
             $('#warning3').html("")
@@ -38,6 +46,8 @@ $(document).ready(function(){
             $('#warning').html("")
         
         }
+
+
 
 
         else if($('#phn1').val()==''){
@@ -55,8 +65,12 @@ $(document).ready(function(){
 
     
         }
+
+   
     });
-    });
+
+
+});
     
     
     

@@ -8,11 +8,13 @@ $(document).ready(function(){
         
     }
 
+
     else if($ ('#mail').val()==''){
         $('#warning1').html("Enter a valid mail !!")
         $('#warning').html("")
         return false
     }
+
 
     else if($ ('#pswd').val()==''){
         $('#warning2').html("Enter a password !!")
@@ -30,6 +32,7 @@ $(document).ready(function(){
         return false
     }
 
+
     else if($ ('#date2').val()==''){
         $('#warning4').html("Enter a valid date !!")
         $('#warning3').html("")
@@ -39,6 +42,7 @@ $(document).ready(function(){
         return false
     }
 
+    
     else if($ ('#phn1').val()==''){
         $('#warning5').html("Enter a valid phone number !!")
         $('#warning4').html("")
@@ -50,10 +54,13 @@ $(document).ready(function(){
     }
     
 
+   
     else{
         return true
     
     }
+
     });
-    });
+   
+});
     
