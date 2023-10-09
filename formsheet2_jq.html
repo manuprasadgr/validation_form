@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>
+            formsheet
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/formsheet2_jq.css">
+    </head>
+    <body>
+        <div id="bg" class="container  my-5">
+
+            <form id="forms" class="container  p-5  my-5 " >
+
+                <div class="row">
+
+                    <div id="col1" class="col-sm-4"><img id="bg1" src="../images/wed2.jpeg"/> 
+                    
+                    </div>
+                   
+
+                    <div id="col2" class="col-sm-8 ">
+
+                        <div id="hdline">
+                            make your event memorable
+                        </div>
+
+                        <div id="div2">
+                             <div class="row">
+                            <div class="col">
+                                <div class="warn" id="warning"></div>
+                              
+                              <input id="name" type="text" class="form-control" placeholder="Enter your name" name="name">
+                            </div>
+
+                            <div class="col">
+                                <div class="warn" id="warning1"></div>
+                                
+                                <input id="mail" type="email" class="form-control" placeholder="Enter your Email" name="email">
+                              </div>
+
+                            
+
+                            <div class="col">
+                                <div class="warn" id="warning2"></div>
+                              <input id="pswd" type="password" class="form-control" placeholder="Enter your password" name="pswd">
+                            </div>
+                           
+                          </div>
+
+                        </div>
+                        
+
+
+
+                        <!--2nd column-->
+
+                        <div class="warn" id="warning3"></div>
+                        <label id="team1" for="team">Choose your team:</label>
+                        <select id="team" name="team">
+                            <option value=''>select</option>
+                            <option value="bride">Bride</option>
+                            <option value="groom">Groom</option>
+                            <option value="none">None</opttion>
+                        </select>
+
+
+                        <div class="warn" id="warning4"></div>
+                        <div id="date">
+                            Date 
+
+                            <input id="date2" type="date" name="date" >
+                        </div>
+                        <div class="warn" id="warning5"></div>
+                        <div id="phn">
+                            Phone Number
+
+                            <input id="phn1" type="tel" name="phn1" >
+                        </div>
+
+
+                        <div>
+
+
+                            <div class="warn" id="warning6"></div>
+
+
+                        <label id="color" for="myColor" class="form-label">Choose your color theme</label>
+                        <input id="color1" type="color" class="form-control form-control-color"  value="#CCCCCC" title="Color">
+
+                        </div>
+
+                        <div id="book">
+                            <input  type="submit" value="Book now">
+
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </form>
+        </div>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+       
+        <script src="js/formsheet2.js" type="text/javascript"></script>
+
+    </body>
+</html>

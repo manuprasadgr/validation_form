@@ -1,0 +1,94 @@
+#bg1{
+    height: 545px;
+    z-index: -1;
+}
+
+    
+
+#col1{
+    opacity: .9;
+}
+#col2{
+    background-color: rgb(144, 181, 181);
+    
+    
+}
+
+#title{
+    font-size: 30px;
+    font-family: sans-serif;
+    margin: 35px;
+    color: rgb(238, 239, 247);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#div2{
+    margin: 30px;
+    margin-bottom: 40px;
+
+}
+
+#team1{
+    margin-left: 28px;
+    
+   
+}
+
+#team{
+    margin-left: 10px;
+    width: 140px;
+
+}
+
+#date{
+    margin: 30px;
+
+}
+
+#phn{
+    margin-left: 30px;
+   
+}
+
+#phn1{
+    margin-left: 30px;
+    width: 140px;
+}
+
+#date2{
+    margin-left: 105px;
+
+
+}
+
+#color{
+
+    margin: 30px;
+
+
+}
+
+
+#color1{
+
+    margin-left: 30px;
+    margin-top: 5px;
+
+}
+#book_now{
+
+    margin-top: 5px;
+    margin-left: 10px;
+   
+}
+
+
+.warn{
+
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    
+}
+
